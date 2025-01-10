@@ -1,0 +1,20 @@
+//para correr el localhost y codigo para poner en postman de cada tabla
+http://localhost:8080/api/modelos 
+{
+    "nombre": "Model X",
+    "marca": "Tesla"
+}
+
+//vehiculo
+{
+    "modelo": { "id": 1 },
+    "matricula": "ABC123",
+    "precio": 45000
+}
+
+//venta
+{
+    "vehiculo": { "id": 1 },
+    "cliente": "Juan Perez",
+    "fecha": "2025-01-10"
+}
